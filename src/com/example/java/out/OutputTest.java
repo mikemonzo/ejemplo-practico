@@ -6,11 +6,11 @@ import com.example.java.model.test.Test;
 
 public interface OutputTest {
 
-    void ououtTest(Test test) throws Exception;
+    void outputTest(Test test) throws Exception;
 
     void outputCorreccion(Test test) throws Exception;
 
-    void ououtTests(List<Test> testList) throws Exception;
+    void outputTests(List<Test> testList) throws Exception;
 
     void outputCorreccion(List<Test> testList) throws Exception;
 
