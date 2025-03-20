@@ -12,7 +12,7 @@ public interface OutputTest {
 
     void outputTests(List<Test> testList) throws Exception;
 
-    void outputCorreccion(List<Test> testList) throws Exception;
+    void outputCorrecciones(List<Test> testList) throws Exception;
 
     List<String> formatTest(Test test);
 

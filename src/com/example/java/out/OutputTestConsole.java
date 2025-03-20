@@ -28,7 +28,7 @@ public class OutputTestConsole implements OutputTest {
     }
 
     @Override
-    public void outputCorreccion(List<Test> testList) throws Exception {
+    public void outputCorrecciones(List<Test> testList) throws Exception {
         for (Test test : testList) {
             outputCorreccion(test);
         }
